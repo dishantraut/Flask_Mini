@@ -16,6 +16,7 @@ class Note(peewee.Model):
 # The select() method creates a SELECT query. 
 # If no fields are explicitly provided, 
 # the query will by default select all the fields defined on the model
+# The where() method can filter data based on a given condition
 notes = Note.select().where(Note.id > 3)
 
 for note in notes:
