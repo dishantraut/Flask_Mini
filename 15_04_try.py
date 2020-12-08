@@ -13,6 +13,7 @@ class Note(peewee.Model):
         database = db
         db_table = 'notes'
 
+# where() method can filter data based on a given condition
 notes = Note.select().where(Note.id > 3)
 
 for note in notes:
