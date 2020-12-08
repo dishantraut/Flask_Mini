@@ -1,0 +1,35 @@
+# Make Virtual Environment
+
+
+1. Make sure you have python installed 
+
+2. Make a folder where you want to make a VE 
+
+3. Open the folder path in cmd
+
+4. Run the following commands 
+	- python -m pip install -U pip
+	- pip install -U eventlet
+	- python -m pip install -U pip wheel setuptools
+	- pip cache purge
+	- python -m venv <Name_Of_VE>
+	- cd <Name_Of_VE>
+	- Scripts\activate
+	- *Download the 'req.txt' and store it inside the folder <Name_Of_VE>
+	- pip install -r req.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
