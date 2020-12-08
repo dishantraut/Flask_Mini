@@ -13,7 +13,9 @@ class Note(peewee.Model):
         database = db
         db_table = 'notes'
 
-# where() method can filter data based on a given condition
+# The select() method creates a SELECT query. 
+# If no fields are explicitly provided, 
+# the query will by default select all the fields defined on the model
 notes = Note.select().where(Note.id > 3)
 
 for note in notes:
