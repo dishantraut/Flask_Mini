@@ -13,7 +13,7 @@ def home():
 def getVariable():
     if 'response' in session:
         s = session['response'];
-        return render_template('getsession.html',name = s)
+        return render_template('17_01_getsession.html',name = s)
 
 if __name__ == '__main__':
     app.run(debug = True)
