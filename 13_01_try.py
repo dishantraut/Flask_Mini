@@ -1,7 +1,7 @@
 # from wtforms import SubmitField, BooleanField, StringField,PasswordField, validators
 # from flask_wtf import FlaskForm
 from flask import Flask, request, render_template
-from model import RegForm
+from 13_01_model import RegForm
 from flask_bootstrap import Bootstrap
 #
 # class RegForm(FlaskForm):
