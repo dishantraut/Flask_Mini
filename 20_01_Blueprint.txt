@@ -1,0 +1,25 @@
+# Flask Blueprint | Blueprint :-
+- As your code grows, it can become harder for you to maintain everything in a single file.
+
+- So, when your application grows in size or complexity, you may want to structure your code 
+  in a different way to keep it maintainable and clear to understand
+  
+- help you structure your Flask application by grouping its functionality into reusable components.
+
+- Flask takes care of dispatching incoming requests to the correct view based on the request URL 
+  and the routes you’ve defined.
+  
+- Flask Blueprints encapsulate functionality, such as views, templates, and other resources
+
+- Each Flask Blueprint is an object that works very similarly to a Flask application
+
+- They both can have resources, such as static files, templates, and views that are associated with routes.
+
+- However, a Flask Blueprint is not actually an application
+
+- It needs to be registered in an application before you can run it
+
+- When we register a Flask Blueprint in an application, 
+  we’re actually extending the application with the contents of the Blueprint.
+  
+- They record operations to be executed later when you register them on an application
