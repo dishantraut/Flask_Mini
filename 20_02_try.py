@@ -2,8 +2,8 @@
 # FOLDER STRUCTURE
 /app
     /views
-        __init__.py
-        E_B.py
+        __init__.py (Empty File)
+        20_02_E_B.py
 
     20_02_try.py
 
